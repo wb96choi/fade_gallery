@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    /* background-color: #333; */
+  }
+  a {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+  }
+  button {
+    width: 20px;
+    height: 50px;
+    border-style: none;
+    background-color: transparent; 
+  }
+  #gallery {
+    text-align: center;  
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  #gallery h2 {
+    margin-bottom: 1em;
+  }
+  
+  .slider {
+    width: 1440px;
+    height: 500px;
+    /* outline: 5px solid red; */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* 
+    현재 이미지 fadeIn 
+    나머지 이미지 fadeOut
+  */
+  
+  .arrow-ui {
+    width: 1440px;
+
+  }
+  .prevBtn, .nextBtn {
+    position: absolute;
+    top: 50%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+  .prevBtn {
+    transform: translateX(-700px);
+  }
+  .nextBtn {
+    transform: translateX(640px);
+  }
+
+  .indicator {
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: 
+        translateX(-50%)
+        translateY(-40px);
+    
+  }
+  .indicator a {
+    
+  }
